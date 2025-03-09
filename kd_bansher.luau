@@ -39,9 +39,9 @@ local Client = {
 local ImportantFunctions = {
 	ScriptOutput = function(Text : string | number , Print : boolean)
 		if Print == true then
-			print(tostring(Client.Name .. "'s DEBUG -> " .. Text))
+			print(tostring(Client.Name .. "'s kd_bansher -> " .. Text))
 		else
-			warn(tostring(Client.Name .. "'s DEBUG -> " .. Text))
+			warn(tostring(Client.Name .. "'s kd_bansher -> " .. Text))
 		end
 	end,
 
@@ -68,8 +68,8 @@ local ImportantFunctions = {
 		warn("Script by : '" .. tostring(ScriptCreator) .. "'!")
 		warn("Script ClassName : '" .. script.ClassName .. "'")
 		warn("Script Parent : '" .. tostring(ScriptParent) .. "'")
-		warn("Convert Version : DEBUG.")
-		warn("Convert Finished on : nil/nil/2024.")
+		warn("Convert Version : 2 (FINAL).")
+		warn("Convert Finished on : 03/09/2024.")
 		warn("<<----{ converted by rbxlxss }---->>")
 	end,
 }
