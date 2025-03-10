@@ -1,3 +1,10 @@
+--[[
+lightx
+horrible convert
+amazing FE script :)
+--]]
+
+
 local Loader = {
 	MMID = 94301907195741,
 
@@ -14,13 +21,13 @@ local Loader = {
 ---// services
 local Players 				= game:GetService("Players")
 local TweenService 			= game:GetService("TweenService")
-local Debris 					= game:GetService("Debris")
+local Debris 				= game:GetService("Debris")
 local SoundService			= game:GetService("SoundService")
 
 ---// variables
 --// important
 local foreach,owner_,LoadA,NewLS_,toHSV	= table.foreach,owner,LoadAssets,NewLocalScript,Color3.toHSV
-local ScriptRunner  							= Players:WaitForChild(owner_.Name)
+local ScriptRunner = Players:WaitForChild(owner_.Name)
 
 local Client = {
 	Player = ScriptRunner,
